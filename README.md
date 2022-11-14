@@ -3,7 +3,7 @@
 Tohy Ny Aina - a propos + portfolio,
 Landry - Authentification,
 Finoana - Contact,
-José - Formation,
+José - Formations,
 Tolotra - Accueil,
 
 # Getting Started with Create React App
