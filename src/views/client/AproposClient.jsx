@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import http from "../../http"
 import axios from "axios";
 import Navbarclient from "../../components/Navbars/navbarclient";
+import Aproposban from "../../components/Cards/Aproposban";
 
 export default function AproposClient() {
     const [users, setUsers] = useState([]);
@@ -26,7 +27,7 @@ export default function AproposClient() {
     return (
         <div>
             <Navbarclient />
-            <h2> A propos </h2>
+            <Aproposban/>
            
         </div>
         
