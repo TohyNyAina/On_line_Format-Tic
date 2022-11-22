@@ -14,13 +14,15 @@ import Accueil from './views/admin/Accueil';
 import Apropos from './views/admin/Apropos';
 import Formation from './views/admin/Formation';
 import Contact from './views/admin/Contact';
+import Minibio from './views/admin/Minibio';
 
 
 //Client
 import AccueilClient from './views/client/AccueilClient';
 import AproposClient from './views/client/AproposClient';
 import FormationClient from './views/client/FormationClient';
-import Contactclient from './views/client/ContactClient';
+import ContactClient from './views/client/ContactClient';
+import MinibioClient from './views/client/Minibioclient';
 
 function App() {
   return (
@@ -37,6 +39,7 @@ function App() {
         <Routes>
           <Route path='/accueil' element={<Accueil />} />
           <Route path='/apropos' element={<Apropos />} />
+          <Route path='/minibio' element={<Minibio />} />
           <Route path='/formation' element={<Formation/>}/>
           <Route path='/contact' element={<Contact />} />
         </Routes>
@@ -48,8 +51,9 @@ function App() {
         <Routes>
           <Route path='/accueilclient' element={<AccueilClient />} />
           <Route path='/aproposclient' element={<AproposClient />} />
+          <Route path='/minibioclient' element={<MinibioClient />} />
           <Route path='/formationclient' element={<FormationClient/>}/>
-          <Route path='/contactclient' element={<Contactclient />} />
+          <Route path='/contactclient' element={<ContactClient />} />
         </Routes>
 
       </div>
