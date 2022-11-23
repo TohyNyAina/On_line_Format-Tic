@@ -1,10 +1,3 @@
-# Fizarana ny asa
-
-Tohy Ny Aina - a propos + portfolio,
-Landry - Authentification,
-Finoana - Contact,
-José - Formations + acceuil,
-Tolotra - Back-end,
 
 # Getting Started with Create React App
 
